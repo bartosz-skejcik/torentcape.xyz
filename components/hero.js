@@ -4,8 +4,7 @@ import { DownloadIcon } from '@heroicons/react/outline'
 const Hero = () => {
   return (
     <div className="pb-[110px] pt-10 text-white">
-      <div className="container">
-        <div className="flex flex-wrap justify-center xl:justify-around">
+        <div className="flex flex-wrap justify-center lg:justify-around xl:justify-around">
           <div className='flex flex-col items-center text-center lg:justify-start md:mt-16'>
             <h1
               className="
@@ -37,7 +36,6 @@ const Hero = () => {
             <img src="/bg.png" alt="" />
           </div>
         </div>
-      </div>
     </div>
   )
 }
